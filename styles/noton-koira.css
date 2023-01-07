@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    text-align: center;
+    background-color: #949494;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: url('../images/donation1.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.banner-title {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 20px 500px;
+
+
+
+}
+
+.banner-info {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: aliceblue;
+    margin: 20px 500px;
+    line-height: 28px;
+}
+
+.btn-primary {
+    background-color: #ff6a6a;
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+
+}
+
+/* donate today styles */
+.donate-today {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.today-info {
+    color: #636363;
+    margin: 20px 600px;
+    text-align: center;
+
+}
+
+/* donaton dox styles */
+.donation-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 500px;
+}
+
+.box {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #8f8f8f;
+    width: 100px;
+    padding: 50px 30px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
