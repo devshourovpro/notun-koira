@@ -100,22 +100,139 @@
     margin-bottom: 20px;
     margin-top: 30px;
 }
-.blog-1{
+
+.blog-1 {
     background-color: #afe8ff;
     border-radius: 5px;
     padding: 40px;
 }
-.blog-2{
+
+.blog-2 {
     background-color: #ffcbd3;
     border-radius: 5px;
     padding: 40px;
 }
-.blog-3{
+
+.blog-3 {
     background-color: #ffebb7;
     border-radius: 5px;
     padding: 40px;
 }
+
 /* info styles */
-.info{
+.info {
     display: flex;
+    justify-content: space-between;
+    padding: 30px 400px;
+    gap: 50px;
+    align-items: center;
+
+
+
+
+}
+
+.btn-new {
+    background-color: #ff6a6a;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    margin-top: 30px;
+    border: none;
+}
+
+.info-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+/* info number 2 styles */
+.info-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 400px;
+    gap: 50px;
+    align-items: center;
+}
+
+.info-title-2 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+/* update info styles */
+.update {
+    text-align: center;
+}
+
+.update-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.update-info {
+    color: #636363;
+    margin: 20px 600px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.submit {
+    background-color: #ff6a6a;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: none;
+}
+
+.update-form {
+    text-align: center;
+    background-color: rgb(255, 234, 191);
+    padding: 50px;
+    width: 800px;
+    height: 100px;
+    background-position: center;
+    margin:50px 500px;
+
+}
+
+.last {
+    height: 50px;
+    width: 500px;
+    margin: 20px;
+    border: none;
+    background-color: #cdcdcd;
+}
+
+.last-2 {
+    height: 55px;
+    width: 150px;
+    background-color: #ff6a6a;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+/* footer styles */
+.footer{
+    background-color: black;
+    text-align: center;
+}
+.ft-title{
+    color: #b90000;
+    padding-top: 40px;
+    /* padding: 50px;
+    width: 800px;
+    height: 100px;
+    margin:50px 500px; */
+}
+.ft-pg{
+    color: white;
+    padding-bottom: 100px;
 }
